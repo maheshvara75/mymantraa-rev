@@ -56,6 +56,7 @@ import ResidencyPage from './pages/ResidencyPage';
 import GoldenVisaPage from './pages/GoldenVisaPage';
 import EquivalencyCertificatePage from './pages/EquivalencyCertificatePage';
 import TravelConciergePage from './pages/TravelConciergePage';
+import ITSolutionsPage from './pages/ITSolutionsPage';
 import BlogPage from './pages/BlogPage';
 import PageLayout from './components/PageLayout';
 
@@ -255,6 +256,14 @@ export default function App() {
             <Route path="/services/residency/golden-visa" element={<GoldenVisaPage />} />
             <Route path="/services/residency/equivalency" element={<EquivalencyCertificatePage />} />
             <Route path="/services/residency/visa" element={<TravelConciergePage />} />
+
+            {/* IT Solutions */}
+            <Route path="/services/it-solutions" element={<ITSolutionsPage />} />
+            <Route path="/services/it-solutions/branding" element={<ServicePage title="Branding" description="Impactful brand identities that tell your story and connect with your audience." bg="https://images.unsplash.com/photo-1626785774573-4b799315345d?auto=format&fit=crop&q=80&w=2000" />} />
+            <Route path="/services/it-solutions/website-design" element={<ServicePage title="Website Design" description="Crafting high-performance websites tailored to your business needs." bg="https://images.unsplash.com/photo-1581291518633-83b4ebd1d83e?auto=format&fit=crop&q=80&w=2000" />} />
+            <Route path="/services/it-solutions/social-media" element={<ServicePage title="Social Media Marketing" description="Building community and engagement through strategic social presence." bg="https://images.unsplash.com/photo-1611162616305-c69b3fa7fbe0?auto=format&fit=crop&q=80&w=2000" />} />
+            <Route path="/services/it-solutions/advertising" element={<ServicePage title="Advertising" description="Targeted ad campaigns designed to convert and scale your growth." bg="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?auto=format&fit=crop&q=80&w=2000" />} />
+            <Route path="/services/it-solutions/seo" element={<ServicePage title="SEO" description="Optimizing your digital footprint to dominate search engine results." bg="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=2000" />} />
 
             {/* Fallback */}
             <Route path="*" element={<HomePage />} />

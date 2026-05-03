@@ -105,6 +105,17 @@ export const NAV_ITEMS: NavItem[] = [
           { label: 'Visa Processing Services', href: '/services/residency/visa' },
         ],
       },
+      {
+        label: 'IT Solutions',
+        href: '/services/it-solutions',
+        children: [
+          { label: 'Branding', href: '/services/it-solutions/branding' },
+          { label: 'Website Design', href: '/services/it-solutions/website-design' },
+          { label: 'Social Media Marketing', href: '/services/it-solutions/social-media' },
+          { label: 'Advertising', href: '/services/it-solutions/advertising' },
+          { label: 'SEO', href: '/services/it-solutions/seo' },
+        ],
+      },
     ],
   },
   {
