@@ -7,7 +7,8 @@ import {
   UserCheck, 
   BarChart3, 
   Briefcase, 
-  CreditCard 
+  CreditCard,
+  Monitor
 } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
@@ -67,6 +68,13 @@ const services = [
     icon: CreditCard,
     href: '/services/residency',
     color: 'bg-cyan-50 text-cyan-600'
+  },
+  {
+    title: 'IT Solutions',
+    desc: 'Cutting-edge digital strategies including web design, SEO, and social marketing.',
+    icon: Monitor,
+    href: '/services/it-solutions',
+    color: 'bg-indigo-50 text-indigo-600'
   }
 ];
 
