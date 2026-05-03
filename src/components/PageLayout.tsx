@@ -45,7 +45,7 @@ export default function PageLayout({ children, title, subtitle, backgroundImage 
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.1 }}
-                className="text-xl text-slate-300 max-w-3xl mx-auto font-light leading-relaxed"
+                className="text-xl text-slate-100 max-w-3xl mx-auto font-light leading-relaxed"
               >
                 {subtitle}
               </motion.p>
